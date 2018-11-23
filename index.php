@@ -49,7 +49,19 @@
 
   ?>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="script.js"></script>
+    <script>
+    $(document).ready(function(){
+    var anchoDiv = $('.ancho').width();
+    $.ajax({
+        data: {"anchoDiv":anchoDiv},
+        url: 'index.php',
+        type: 'post',
+        success: function(response){
+            console.log(anchoDiv)
+        }
+    });
+});
+    </script>
   <?php
 
 ?>
