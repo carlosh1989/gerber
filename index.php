@@ -14,29 +14,28 @@
             'link' => '#',
             'url_img' => 'v1533602773/iwevpcagpd0kuwno3xnx.jpg', 
             'alt' => 'descripcion de imagen'),$atts);
-
             
 
         //asignacion de valores
         $link = $args['link'];
-        $url_img = $args['url_img'];
         $alt = $args['alt'];
-        $base_cloudinary = "https://res.cloudinary.com/webuvg/image/upload/";
-        $parametro_webP ="f_auto,q_auto/";
-        $parametro_compresion = "q_auto/fl_any_format/";
 
 
         // Cambiar tu "tucnsultaenlinea" por nombre de cuenta cloudinary a usar
         $uri_base_account = "https://res.cloudinary.com/tuconsultaenlinea/image/upload";
         
         // Parametros obligatorios para el funcionamiento de la auto resizing de las imagenes
-        $uri_parameters = "w_auto,c_scale";
+        $uri_parameters_small = "f_auto,q_70,w_768";
+        $uri_parameters_medium = "f_auto,q_70,w_992";
+        $uri_parameters_large = "f_auto,q_70,w_1900";
 
         // nombre de la imagen en cloudinary 
         $uri_picture = $args['url_img'];
 
         # URL DE IMAGEN HECHA.
-        $picture = $uri_base_account.'/'.$uri_parameters.'/'.$uri_picture;
+        $picture_small = $uri_base_account.'/'.$uri_parameters_small.'/'.$uri_picture;
+        $picture_medium = $uri_base_account.'/'.$uri_parameters_medium.'/'.$uri_picture;
+        $picture_large = $uri_base_account.'/'.$uri_parameters_large.'/'.$uri_picture;  
 
         #PARAMETROS DE TAG html
 
@@ -48,13 +47,13 @@
 
 
         if ($link == '#') {
-            $img = "<meta name='viewport' content='width=device-width'><meta http-equiv='X-UA-Compatible' content='ie=edge'>
-            <a href='".$link."'><img src='".$picture."' alt='".$alt."'></a><script src='bower_components/cloudinary-core/cloudinary-core-shrinkwrap.js' type='text/javascript'></script><script type='text/javascript'>var cl = cloudinary.Cloudinary.new({cloud_name: 'demo'});cl.responsive();</script>";
+            #$img = "<img src='".$picture."' alt='".$alt."'>";
+            $img = "<div style='width:100%'><img srcset='".$picture_small." 768w, ".$picture_medium." 992w, ".$picture_large." 1900w sizes='(max-width: 30em) 30em, 992vw src='".$picture_medium."' alt='it's responsive'/></div>";
         }
         else
         {
-            $img = "<meta name='viewport' content='width=device-width'><meta http-equiv='X-UA-Compatible' content='ie=edge'>
-            <a href='".$link."'><img src='".$picture."' alt='".$alt."'></a><script src='bower_components/cloudinary-core/cloudinary-core-shrinkwrap.js' type='text/javascript'></script><script type='text/javascript'>var cl = cloudinary.Cloudinary.new({cloud_name: 'demo'});cl.responsive();</script>";
+            $img = "<div style='width:100%'><a href='".$link."'><img srcset='".$picture_small." 768w, ".$picture_medium." 992w, ".$picture_large." 1900w sizes='(max-width: 30em) 30em, 992vw src='".$picture_medium."' alt='it's responsive'/></a></div>";
+            #$img = "<a href='".$link."'><img data-src='".$picture."' alt='".$alt."'></a>";
         }
 
         return $img;
