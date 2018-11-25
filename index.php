@@ -25,11 +25,11 @@
         $uri_base_account = "https://res.cloudinary.com/tuconsultaenlinea/image/upload";
         
         // Parametros obligatorios para el funcionamiento de la auto resizing de las imagenes
-        $uri_parameters_extra_small = "f_auto,q_70,w_544";  #Portrait phones (<544px)
-        $uri_parameters_small       = "f_auto,q_70,w_768";  #Landscape phones (≥544px - <768px)
-        $uri_parameters_medium      = "f_auto,q_70,w_992";  #Tablets (≥768px - <992px)
-        $uri_parameters_large       = "f_auto,q_70,w_1200"; #Desktops (≥992px - <1200px)
-        $uri_parameters_extra_large = "f_auto,q_70,w_1900"; #Desktops (≥1200px)
+        $uri_parameters_extra_small = "f_auto,q_auto,w_544";  #Portrait phones (<544px)
+        $uri_parameters_small       = "f_auto,q_auto,w_768";  #Landscape phones (≥544px - <768px)
+        $uri_parameters_medium      = "f_auto,q_auto,w_992";  #Tablets (≥768px - <992px)
+        $uri_parameters_large       = "f_auto,q_auto,w_1200"; #Desktops (≥992px - <1200px)
+        $uri_parameters_extra_large = "f_auto,q_auto,w_1900"; #Desktops (≥1200px)
 
         // nombre de la imagen en cloudinary 
         $uri_picture = $args['url_img'];
