@@ -1,7 +1,9 @@
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
 <script>
 // A $( document ).ready() block.
-$( document ).ready(function() {
+jQuery(document).ready(function(){
     let ancho = $("#child<?php echo $ID ?>").closest("div").width();
     let base = 'https://res.cloudinary.com/webuvg/image/upload/'
     let parametros = 'f_auto,q_78,w_'+ancho+'/'
