@@ -14,7 +14,7 @@ function responsive_images($atts){
         'url_img' => 'v1539629698/WEB/Impacto/Egresados/Tatiana%20Mancilla/Mancilla1.jpg', 
         'alt' => 'descripcion de imagen
         '),$atts);
-
+    $ID = mb_substr($args['url_img'], 0, 10).''.rand(5, 15);
     ob_start();
     include('pagina2.php');
     return ob_get_clean();
