@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T16:50:58.406Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="_Jozj5Auax3T4Ba5MTOx" version="14.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-01T15:15:25.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="Hsg88LoiGKOoIBXUG8FR" version="14.2.7" type="github" pages="3">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
     <mxGraphModel dx="786" dy="1370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -210,7 +210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QPHTgMrW89rbYTI0sd_7" name="Page-2">
-    <mxGraphModel dx="3226" dy="3378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="2858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bmyZmvMGDNsNkP8Xa65y-0" />
         <mxCell id="bmyZmvMGDNsNkP8Xa65y-1" parent="bmyZmvMGDNsNkP8Xa65y-0" />
@@ -314,6 +314,98 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w6p_kXDoABb4uAm1ILQg-0" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="bmyZmvMGDNsNkP8Xa65y-1" source="GGgMYoYCZhMItihsB0li-0" target="UKYgUxv6gs8hcdsovIRL-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-18.21" y="-110" as="sourcePoint" />
+            <mxPoint x="-18.21" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bVBRphtPBTjHmDpzfctf" name="Page-3">
+    <mxGraphModel dx="2440" dy="2858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ura1nviIpaKY_g9N56sX-0" />
+        <mxCell id="ura1nviIpaKY_g9N56sX-1" parent="ura1nviIpaKY_g9N56sX-0" />
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-0" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;rent_companies ( &lt;font color=&quot;#0066cc&quot;&gt;compañias&lt;/font&gt; )&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;company_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;email&lt;br&gt;address&lt;br&gt;logo&lt;br&gt;phone&lt;br&gt;steps&lt;br&gt;created_at&lt;br&gt;updated_at&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-110" y="-1245" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;rent_office_restrictions ( &lt;font color=&quot;#003366&quot;&gt;Restricciones de&amp;nbsp;oficina&lt;/font&gt;&amp;nbsp;)&amp;nbsp;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;restricciones_id (&lt;font color=&quot;#003366&quot;&gt;Restriccion ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;parameter_id (&amp;nbsp;&lt;font color=&quot;#003366&quot;&gt;Restricción&amp;nbsp;ID&lt;/font&gt;)&lt;br&gt;value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at &amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;updated_at&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-690" y="-1350" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;users&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;user_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-960" y="-1245" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-6" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERmandOne;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;elbow=vertical;endFill=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="-1230" as="sourcePoint" />
+            <mxPoint x="-510" y="-1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-350" y="-925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-7" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;rent_offices ( &lt;font color=&quot;#003366&quot;&gt;Sedes&lt;/font&gt; )&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;office_id&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;restriction_id (&lt;font color=&quot;#003366&quot;&gt;restriction&amp;nbsp;ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;name&lt;br&gt;phone&lt;br&gt;location_gps&lt;br&gt;location_text&lt;br&gt;created_at&lt;br&gt;updated_at&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-100" y="-960" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-8" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-0" target="YpuFSdE0raS1cx2J4Z-s-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="-1100" as="sourcePoint" />
+            <mxPoint x="-270" y="-950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;rent_modes ( &lt;font color=&quot;#003366&quot;&gt;Tipo de reserva &lt;/font&gt;)&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;mode_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;office_id ( Sede&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;mode (&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;&lt;/font&gt;parqueadero&lt;font color=&quot;#003366&quot;&gt; - parking&lt;/font&gt;) (office -&lt;font color=&quot;#003366&quot;&gt;puesto de trabajo)&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at&lt;br&gt;updated_at&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-215" y="-710" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-10" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-7" target="YpuFSdE0raS1cx2J4Z-s-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="-790" as="sourcePoint" />
+            <mxPoint y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-11" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;rent_models ( &lt;font color=&quot;#003366&quot;&gt;Pisos&lt;/font&gt; )&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;model_id (&lt;font color=&quot;#003366&quot;&gt;Piso Id&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;mode_id ( &lt;font color=&quot;#003366&quot;&gt;Tipo reserva ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;model ( &lt;font color=&quot;#003366&quot;&gt;nombre de piso&lt;/font&gt; )&lt;br&gt;image&lt;br&gt;brand ( nulo)&lt;br&gt;year ( nulo )&lt;br&gt;note ( nulo )&lt;br&gt;createed_at&amp;nbsp;&lt;br&gt;updated_at&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-121.25" y="-510" width="202.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-12" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-9" target="YpuFSdE0raS1cx2J4Z-s-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20.83" y="-580" as="sourcePoint" />
+            <mxPoint x="-20.659999999999997" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-13" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;rent_vehicles ( &lt;font color=&quot;#003366&quot;&gt;Referencias&lt;/font&gt; )&amp;nbsp;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;vehicle_id (&lt;font color=&quot;#003366&quot;&gt;referencia ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;model_id&amp;nbsp;( &lt;font color=&quot;#003366&quot;&gt;Piso ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;number_plate&amp;nbsp;( &lt;font color=&quot;#003366&quot;&gt;nombre referencia&lt;/font&gt;)&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;number_plate ( &lt;font color=&quot;#003366&quot;&gt;nombre referencia&lt;/font&gt;)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;status&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at&lt;br&gt;updated_at&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-142.5" y="-260" width="245" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-14" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-11" target="YpuFSdE0raS1cx2J4Z-s-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20.83" y="-290" as="sourcePoint" />
+            <mxPoint x="-20.83" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-15" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;rent_reservations ( &lt;font color=&quot;#003366&quot;&gt;Reservaciones&lt;/font&gt;&amp;nbsp;)&amp;nbsp;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;reservation_id (&lt;font color=&quot;#003366&quot;&gt;Reservación ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;community_id ( &lt;font color=&quot;#003366&quot;&gt;Comunidad ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK2&lt;/td&gt;&lt;td&gt;vehicle_id (&amp;nbsp;&lt;font color=&quot;#003366&quot;&gt;Referencia ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;user_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;pick_date (&amp;nbsp;&lt;font color=&quot;#003366&quot;&gt;inicio reserva&lt;/font&gt;&amp;nbsp;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;return_date (&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;final reserva&lt;/font&gt;&amp;nbsp;)&lt;br&gt;status&lt;br&gt;created_at&lt;br&gt;updated_at&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-140" y="-10" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-16" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-15" target="YpuFSdE0raS1cx2J4Z-s-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="75" as="sourcePoint" />
+            <mxPoint x="-940" y="-900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-500" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-17" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;communities ( Comunidades&lt;font color=&quot;#003366&quot;&gt;&amp;nbsp;&lt;/font&gt;)&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;name ( &lt;font color=&quot;#003366&quot;&gt;compañia ID&lt;/font&gt;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;created_at&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;updated_at&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="ura1nviIpaKY_g9N56sX-1">
+          <mxGeometry x="-1320" y="-1240" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-18" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmany;endArrow=ERmandOne;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;startFill=0;endFill=0;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-15" target="YpuFSdE0raS1cx2J4Z-s-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-142.5" y="92.5" as="sourcePoint" />
+            <mxPoint x="-880" y="-932.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-640" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YpuFSdE0raS1cx2J4Z-s-19" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startArrow=ERmandOne;endArrow=ERoneToMany;fontFamily=Verdana;fontSize=12;align=left;fontStyle=1;fillColor=#f8cecc;strokeColor=#030101;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ura1nviIpaKY_g9N56sX-1" source="YpuFSdE0raS1cx2J4Z-s-13" target="YpuFSdE0raS1cx2J4Z-s-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-18.21" y="-110" as="sourcePoint" />
             <mxPoint x="-18.21" y="-40" as="targetPoint" />
